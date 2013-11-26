@@ -44,8 +44,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc %{_libdir}/R/library/%{packname}/doc
 %doc %{_libdir}/R/library/%{packname}/html
 %doc %{_libdir}/R/library/%{packname}/DESCRIPTION
-%doc %{_libdir}/R/library/%{packname}/NEWS
-%doc %{_libdir}/R/library/%{packname}/CITATION
 %{_libdir}/R/library/%{packname}/INDEX
 %{_libdir}/R/library/%{packname}/NAMESPACE
 %{_libdir}/R/library/%{packname}/Meta
@@ -53,5 +51,3 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/R/library/%{packname}/help
 %{_libdir}/R/library/%{packname}/data
 %{_libdir}/R/library/%{packname}/libs
-%{_libdir}/R/library/%{packname}/demo
-%{_libdir}/R/library/%{packname}/tests
