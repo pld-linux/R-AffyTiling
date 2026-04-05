@@ -3,12 +3,12 @@
 Summary:	Easy extraction of individual probes in Affymetrix tiling arrays
 Name:		R-%{packname}
 Version:	1.20.0
-Release:	2
+Release:	3
 License:	LGPL v2+
 Group:		Applications/Engineering
-Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+Source0:	https://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
 # Source0-md5:	5cbc7db056fbd052bb5487123ed99efb
-URL:		http://bioconductor.org/packages/release/bioc/html/affy.html
+URL:		https://bioconductor.org/packages/release/bioc/html/affy.html
 BuildRequires:	R
 BuildRequires:	R-affxparser
 BuildRequires:	R-affy
